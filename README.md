@@ -1,2 +1,2 @@
 # Handzzle
-Handzzle is a jigsaw puzzle game based on hand gesture interaction. 
+Handzzle is a puzzle game based on hand gesture interaction. 
