@@ -1,39 +1,50 @@
 # Handzzle
 
-**Handzzle** is an innovative hand-gesture recognition puzzle game designed for art museums. It leverages gamification principles to enhance visitor engagement and offers an interactive and educational experience for people of all ages.
+**Handzzle** is a cutting-edge hand-gesture recognition puzzle game designed for art museums. By incorporating gamification principles, Handzzle offers an interactive, fun, and educational way to engage visitors of all ages with museum exhibits.
+
+---
 
 ## Features
 
-- **Hand Gesture Recognition**: Solve puzzles using hand movements, powered by Mediapipe's real-time hand tracking.
-- **Museum Integration**: Engage with artworks through gesture-based puzzles.
+- **Intuitive Hand Gesture Controls**: Solve puzzles using hand gestures, powered by Mediapipe's real-time hand tracking.
+- **Museum Integration**: Seamlessly integrates with art museum exhibits, making cultural learning engaging.
 - **Gamification Benefits**:
-  - Increases engagement.
-  - Facilitates mistake-driven learning.
-  - Makes education fun and interactive.
+  - Boosts engagement and interactivity.
+  - Encourages mistake-driven learning.
+  - Makes education accessible and enjoyable for all.
+
+---
 
 ## How It Works
 
-1. **Choose a Category**: Select from art styles like Impressionism, Expressionism, Renaissance, or Romanticism.
-2. **Interactive Puzzle Solving**: Use hand gestures to drag and drop puzzle pieces, recreating famous paintings.
-3. **Touch Simulation**: Gestures are translated into simulated touch inputs for Unity, enabling natural interactions.
+1. **Select a Category**: Choose from art styles like *Impressionism*, *Expressionism*, *Renaissance*, or *Romanticism*.
+2. **Solve the Puzzle**: Use hand gestures to drag and drop pieces to recreate iconic paintings.
+3. **Simulated Touch Inputs**: Gestures are translated into virtual touch commands, enabling smooth interaction in Unity.
+
+---
 
 ## System Requirements
 
-- **Hardware**:
-  - Full HD screen (1920x1080).
-  - Full HD camera with a matching resolution.
-  - Computer capable of running the system.
-- **Software**:
-  - Mediapipe for hand gesture detection.
-  - Unity for game development and interface design.
-  - Python for gesture data processing.
+### Hardware
+- Full HD screen (1920x1080 resolution).
+- Full HD camera with a matching resolution.
+- A computer capable of running Unity and Mediapipe.
+
+### Software
+- **Mediapipe**: For precise hand gesture detection.
+- **Unity**: For game interface and mechanics.
+- **Python**: To process hand gesture data and transmit it to Unity.
+
+---
 
 ## Technology Stack
 
-- **Mediapipe**: For hand landmark detection and gesture recognition.
-- **Unity**: Used for game development due to its robust tools and ease of use.
-- **Python**: Handles data processing and sends hand gesture coordinates to Unity.
-- **Socket Library**: Facilitates real-time data transfer between Python and Unity.
+- **Mediapipe**: Handles hand landmark detection and gesture recognition with high performance.
+- **Unity**: Powers the game engine and visual experience.
+- **Python**: Processes hand tracking data and communicates with Unity via sockets.
+- **Socket Library**: Ensures real-time data transfer between Python and Unity.
+
+---
 
 ## Installation and Setup
 
@@ -46,36 +57,63 @@
    pip install mediapipe
    ```
 3. Open the Unity project located in the `HandzzleUnity` folder.
-4. Connect your Full HD camera and ensure the resolution matches the screen.
-5. Run the Python script to initiate hand tracking.
+4. Connect your Full HD camera and verify that the resolution matches the screen.
+5. Run the Python script to activate hand tracking.
 6. Launch the Unity application to start the game.
 
-## Future Developments
+---
 
-- Adding hints to assist users in solving puzzles.
-- Including painting references during gameplay.
-- Enhancing the hand representation and user interface for better immersion.
+## Gameplay
 
-## Mockups
+### Instructions  
+To guide users, clear visual instructions are provided on how to interact with the system.  
+![Instructions](resources/instructions.gif)
 
-Initial and updated designs were created to refine the user interface and improve usability. 
+### Main Menu  
+Begin the game by bringing your fingers together over the **Play** button.  
+![Main Menu](resources/mainMenu.gif)
 
-![Mockup Image Placeholder](https://via.placeholder.com/600x300)  
-*Example of a puzzle-solving interface.*
+### Categories  
+Choose one of four categories to solve puzzles related to a specific art style. Categories can be customized based on museum themes.  
+![Categories](resources/categories.gif)
+
+#### Art Style Examples:  
+- **Impressionism**  
+  ![Impressionism](resources/impressionism.gif)  
+- **Expressionism**  
+  ![Expressionism](resources/expressionism.gif)  
+- **Renaissance**  
+  ![Renaissance](resources/renaissance.gif)  
+- **Romanticism**  
+  ![Romanticism](resources/romanticism.gif)  
+
+---
 
 ## Testing Insights
 
-- Younger users quickly adapted to the game.
-- Older users required additional practice but still enjoyed the experience.
-- Hand gesture mechanics were well-received across all age groups.
+- Younger participants adapted quickly to the game mechanics.
+- Older users required additional practice but ultimately enjoyed the interactive experience.
+- The simplified hand gesture interface received positive feedback across all age groups.
+
+---
+
+## Future Enhancements
+
+- **Hints System**: Provide in-game assistance to help users solve challenging puzzles.
+- **Painting References**: Display relevant artwork details during gameplay for deeper engagement.
+- **Improved Design**: Enhance hand representations and user interface for a more immersive experience.
+
+---
 
 ## Contributors
 
-- **Adrian Cristurean Laurentiu**
-- **Daniel Pamfil**
-- **Carolina Proietti**
-- **Tommaso Maldera**
+- **Daniel Pamfil**  
+- **Adrian Cristurean Laurentiu**  
+- **Carolina Proietti**  
+- **Tommaso Maldera**  
 - **Jorge Bernal**
+
+---
 
 ## License
 
